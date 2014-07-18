@@ -1,3 +1,6 @@
 <h1>Hello, Rails</h1>
 <%= link_to 'My Blog', controller: 'articles'  %>
-
+<h2 id="signin_button">Sign in</h2>
+<div id="signin"><%= render 'devise/sessions/new' %></div>
+<h2 id="signup_button">Sign up</h2>
+<div id="signup"><%= render 'devise/registrations/new' %></div>
